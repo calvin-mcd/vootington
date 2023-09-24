@@ -55,7 +55,13 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|207418749|98839841|6e38b9ac-3c12-4ea5-9f77-10fc4eb206b0|daa43b79-da4b-426f-936a-493ac6291e0e",
+        "courtyards_overlap|262187499|63250001|ceffae22-5a24-434d-872d-895cb9e3d816|d69f890e-ac39-4849-b740-60412ea10318",
+        "courtyards_overlap|264568749|72775001|b305e3a3-8601-445b-9b99-e92a75327c73|ceffae22-5a24-434d-872d-895cb9e3d816",
+        "courtyards_overlap|58487501|83885467|39f4c00a-9ee1-4df4-8a00-85cd9b0e6e89|3a54b6f9-2057-4cfd-812d-336888563c72",
+        "hole_near_hole|249713750|57943750|794f8d6c-9d57-43a3-97ce-9c6ecb243571|66f312b2-5560-464f-b474-2c59d1f19715"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -422,7 +428,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "vootvan.kicad_pro",
+    "filename": "vootington.kicad_pro",
     "version": 1
   },
   "net_settings": {
