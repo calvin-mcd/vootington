@@ -1079,7 +1079,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR0114") (unit 1)
         )
@@ -1121,7 +1121,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C12") (unit 1)
         )
@@ -1156,7 +1156,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR0117") (unit 1)
         )
@@ -1195,7 +1195,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "R5") (unit 1)
         )
@@ -1225,7 +1225,7 @@
     )
     (pin "1" (uuid 529890a9-212c-4054-b6e2-117d8e402362))
     (instances
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR0115") (unit 1)
         )
@@ -1305,7 +1305,7 @@
     (pin "8" (uuid d9cac42f-5aa6-4571-8e59-d407f92ee1a0))
     (pin "9" (uuid 4f99ba6e-7741-43b5-a4b2-aff238afee08))
     (instances
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "U59") (unit 1)
         )
@@ -1347,7 +1347,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C10") (unit 1)
         )
@@ -1377,7 +1377,7 @@
     )
     (pin "1" (uuid dfa93317-5968-4372-8aff-8d50d450cfd7))
     (instances
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR01") (unit 1)
         )
@@ -1416,7 +1416,7 @@
           (reference "SW?") (unit 1)
         )
       )
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "SW1") (unit 1)
         )
@@ -1458,7 +1458,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C11") (unit 1)
         )
@@ -1493,7 +1493,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR02") (unit 1)
         )
@@ -1535,7 +1535,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C2") (unit 1)
         )
@@ -1565,7 +1565,7 @@
     )
     (pin "1" (uuid b87ae314-94d7-495b-9680-98872382b71e))
     (instances
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR0107") (unit 1)
         )
@@ -1607,7 +1607,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C1") (unit 1)
         )
@@ -1637,7 +1637,7 @@
     )
     (pin "1" (uuid bd597dd6-9a11-4827-a463-8b7b354515d7))
     (instances
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR0113") (unit 1)
         )
@@ -1679,7 +1679,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C13") (unit 1)
         )
@@ -1718,7 +1718,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington"
+      (project "vootington gaming"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C29") (unit 1)
         )
