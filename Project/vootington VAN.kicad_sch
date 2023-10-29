@@ -803,6 +803,48 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 398.145 281.94 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0522d5a0-6e59-4da5-b5b4-3d5b3969ea8a)
+    (property "Reference" "H3" (at 400.685 281.1053 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 400.685 283.6422 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 398.145 281.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 398.145 281.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H3") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H10") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 246.38 361.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05ec4739-f96e-4da0-a7ec-cdf43f8d0e88)
@@ -1355,6 +1397,90 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 423.545 320.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1b4a5524-b504-45bb-8548-70801a325628)
+    (property "Reference" "H16" (at 426.085 319.2053 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 426.085 321.7422 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 423.545 320.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 423.545 320.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H16") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H16") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H16") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H23") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 423.545 300.99 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1bb587a2-6ce4-4647-bc3f-9e833d0e7c13)
+    (property "Reference" "H10" (at 426.085 300.1553 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 426.085 302.6922 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 423.545 300.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 423.545 300.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H10") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H10") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H13") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H17") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 314.198 211.709 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1c3c13b7-617b-42e8-9ca9-25eb577749f6)
@@ -1843,6 +1969,48 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 398.145 294.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 312a88de-d2d1-4428-9353-f00c3053bd3e)
+    (property "Reference" "H7" (at 400.685 293.8053 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 400.685 296.3422 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 398.145 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 398.145 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H7") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H7") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H14") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 297.18 336.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31ef94c1-1077-4a49-9375-f70ed7bb484e)
@@ -2046,6 +2214,48 @@
       (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
           (reference "#PWR0184") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 423.545 313.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 37f081f1-8458-41e1-a0de-7e503ea0c4f2)
+    (property "Reference" "H14" (at 426.085 312.8553 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 426.085 315.3922 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 423.545 313.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 423.545 313.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H14") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H14") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H15") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H21") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -2759,6 +2969,48 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 423.545 307.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 54ceb377-6fdc-4554-86b8-f48e4f98a033)
+    (property "Reference" "H12" (at 426.085 306.5053 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 426.085 309.0422 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 423.545 307.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 423.545 307.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H12") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H12") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H14") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H19") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "49e:Hall_Sensor") (at 252.73 51.435 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55015289-54a4-49a9-b13e-7f339955690e)
@@ -2982,6 +3234,48 @@
       (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
           (reference "K_47") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 423.545 288.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5b240c38-a202-4dda-8dd5-1e2ae785811d)
+    (property "Reference" "H6" (at 426.085 287.4553 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 426.085 289.9922 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 423.545 288.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 423.545 288.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H6") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H6") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H11") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H13") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -3439,6 +3733,48 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 398.145 320.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6926969e-cb3d-48ba-b1a9-3574c5ab31cc)
+    (property "Reference" "H15" (at 400.685 319.2053 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 400.685 321.7422 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 398.145 320.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 398.145 320.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H15") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H15") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H8") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H22") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 271.78 336.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a4de21e-07f7-4003-867d-155236adaa54)
@@ -3601,6 +3937,48 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 398.145 307.34 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 6d5d66c4-7de0-4521-9595-da3fbf323554)
+    (property "Reference" "H11" (at 400.685 306.5053 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 400.685 309.0422 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 398.145 307.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 398.145 307.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H11") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H11") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H6") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H18") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "49e:Hall_Sensor") (at 189.484 153.289 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6dfaca7d-325b-4e33-a5b7-c289d3133e8d)
@@ -3714,6 +4092,48 @@
       (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
           (reference "#PWR0143") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 398.145 275.59 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 72cad1ae-056c-4f76-9e95-50ebe4320a45)
+    (property "Reference" "H1" (at 400.685 274.7553 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 400.685 277.2922 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 398.145 275.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 398.145 275.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H1") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H8") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -3872,6 +4292,48 @@
       (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
           (reference "#PWR0164") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 423.545 281.94 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7ba0e2ea-64af-472a-933a-2dd00bfb8fe0)
+    (property "Reference" "H4" (at 426.085 281.1053 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 426.085 283.6422 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 423.545 281.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 423.545 281.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H4") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H10") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H11") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -4180,6 +4642,48 @@
       (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
           (reference "H3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 398.145 300.99 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8c66bbc5-954b-4865-8827-ea5c824ec4e7)
+    (property "Reference" "H9" (at 400.685 300.1553 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 400.685 302.6922 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 398.145 300.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 398.145 300.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H9") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H9") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H5") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H16") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -4951,6 +5455,48 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 398.145 288.29 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c16cce1f-f9c5-4bd8-b8af-1552f040cbcb)
+    (property "Reference" "H5" (at 400.685 287.4553 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 400.685 289.9922 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 398.145 288.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 398.145 288.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H5") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H5") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H12") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "49e:Hall_Sensor") (at 189.484 101.727 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c223f591-bf4a-4cc6-a121-a4ea51a59ab8)
@@ -5118,6 +5664,48 @@
       (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
           (reference "K_25") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 423.545 294.64 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c7d6494f-46be-4e12-98e4-f69c26ab0c20)
+    (property "Reference" "H8" (at 426.085 293.8053 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 426.085 296.3422 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 423.545 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 423.545 294.64 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H8") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H8") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H12") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H15") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -5446,6 +6034,48 @@
       (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
           (reference "#PWR080") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 398.145 313.69 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid d33eab74-fb9b-4bfc-8c61-9b2f1fc094b6)
+    (property "Reference" "H13" (at 400.685 312.8553 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 400.685 315.3922 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 398.145 313.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 398.145 313.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H13") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H13") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H7") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H20") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -5988,6 +6618,48 @@
       (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
           (reference "U24") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 423.545 275.59 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e52c25d6-b40b-4d27-a205-5c876f4e5e72)
+    (property "Reference" "H2" (at 426.085 274.7553 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 426.085 277.2922 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "cipulot_parts:HOLE_M2" (at 423.545 275.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 423.545 275.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "H2") (unit 1)
+        )
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b/610cabd0-87c8-472b-8f6a-63e84b5c9031"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "travaulta"
+        (path "/690df46b-b605-4617-b545-6aaced86d0fc/794114ef-7db2-4f90-86d0-13c32bb11aa3"
+          (reference "H9") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
+          (reference "H9") (unit 1)
+        )
+      )
+      (project "EC60"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55/004107b0-ccf4-476d-9504-97bf1a9256af"
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -6766,7 +7438,7 @@
 
   (sheet (at 471.17 238.76) (size 100.33 46.99)
     (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
+    (fill (color 255 176 54 1.0000))
     (uuid 18fa9a6d-388b-4829-a409-257b50720dd4)
     (property "Sheetname" "multiplexers" (at 471.17 285.75 0)
       (effects (font (size 4 4)) (justify left bottom))

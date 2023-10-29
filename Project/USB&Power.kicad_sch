@@ -290,6 +290,82 @@
         )
       )
     )
+    (symbol "Connector_Generic_MountingPin:Conn_01x04_MountingPin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x04_MountingPin" (at 1.27 -7.62 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connectable mounting pin connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??-1MP*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x04_MountingPin_1_1"
+        (rectangle (start -1.27 -4.953) (end 0 -5.207)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 2.667) (end 0 2.413)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start -1.27 3.81) (end 1.27 -6.35)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (polyline
+          (pts
+            (xy -1.016 -7.112)
+            (xy 1.016 -7.112)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (text "Mounting" (at 0 -6.731 0)
+          (effects (font (size 0.381 0.381)))
+        )
+        (pin passive line (at -5.08 2.54 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 0 0) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -2.54 0) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -5.08 -5.08 0) (length 3.81)
+          (name "Pin_4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 0 -10.16 90) (length 3.048)
+          (name "MountPin" (effects (font (size 1.27 1.27))))
+          (number "MP" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -1003,6 +1079,9 @@
     )
   )
 
+  (junction (at 49.657 131.953) (diameter 0) (color 0 0 0 0)
+    (uuid 104a56ba-2b64-4899-9d53-e5528614c333)
+  )
   (junction (at 32.893 81.28) (diameter 0) (color 0 0 0 0)
     (uuid 121b4efd-8067-47e0-bbbe-c775a17ef594)
   )
@@ -1030,6 +1109,9 @@
   (junction (at 133.35 56.515) (diameter 0) (color 0 0 0 0)
     (uuid eaad4e99-909b-44bf-b0be-94ff1dfe16e1)
   )
+  (junction (at 49.657 104.775) (diameter 0) (color 0 0 0 0)
+    (uuid f15a9f15-59d5-4e43-9d41-f9e14bbea986)
+  )
 
   (no_connect (at 52.07 69.85) (uuid 3da7498a-4a19-42d7-a949-15fa54ff520d))
   (no_connect (at 52.07 72.39) (uuid 69e73195-8bae-4a76-8d95-c41d58ca2957))
@@ -1054,6 +1136,11 @@
     (stroke (width 0) (type solid))
     (uuid 15d1179a-9f83-49fd-9447-868ba6265623)
   )
+  (bus (pts (xy 13.97 104.775) (xy 49.657 104.775))
+    (stroke (width 0) (type default))
+    (uuid 228ea797-84e5-429a-9436-eeed089fc3a2)
+  )
+
   (wire (pts (xy 123.19 33.02) (xy 123.19 34.29))
     (stroke (width 0) (type solid))
     (uuid 26c63691-50d8-42bf-9578-6dbaac6b916f)
@@ -1086,6 +1173,11 @@
     (stroke (width 0) (type default))
     (uuid 3e73aa44-e944-4732-8c42-485a7c2e47d7)
   )
+  (bus (pts (xy 49.657 131.953) (xy 86.868 131.953))
+    (stroke (width 0) (type default))
+    (uuid 42290d6f-2532-4789-aa5b-a7584c4daa59)
+  )
+
   (wire (pts (xy 52.07 62.23) (xy 53.34 62.23))
     (stroke (width 0) (type default))
     (uuid 48e21cb3-07af-454b-89b4-75dd2dc3c0f6)
@@ -1098,6 +1190,11 @@
     (stroke (width 0) (type solid))
     (uuid 582a5801-f092-40fc-bd8c-61d0a92970a5)
   )
+  (bus (pts (xy 13.97 104.775) (xy 13.97 131.953))
+    (stroke (width 0) (type default))
+    (uuid 5b5de311-ae0f-42a4-b59f-8075edf9c8f9)
+  )
+
   (wire (pts (xy 102.87 39.37) (xy 102.87 40.64))
     (stroke (width 0) (type solid))
     (uuid 6bbb5a5f-6fd3-4a15-b450-b14e664c6e84)
@@ -1134,6 +1231,11 @@
     (stroke (width 0) (type default))
     (uuid 907b8b94-3234-41b4-b4d3-d333e9f221c5)
   )
+  (bus (pts (xy 86.995 104.775) (xy 86.995 131.953))
+    (stroke (width 0) (type default))
+    (uuid a35ad8c2-81d8-4b3c-ae9f-12f55df03804)
+  )
+
   (wire (pts (xy 53.34 60.96) (xy 54.61 60.96))
     (stroke (width 0) (type default))
     (uuid a3f121f0-b5a9-4ddc-b360-2963d5532ac9)
@@ -1154,6 +1256,11 @@
     (stroke (width 0) (type default))
     (uuid afe7cdea-5ca7-4fc9-82f2-4f378637f31a)
   )
+  (bus (pts (xy 13.97 131.953) (xy 49.657 131.953))
+    (stroke (width 0) (type default))
+    (uuid bb289c9c-b13e-4fc5-bad1-e73ec324ba8f)
+  )
+
   (wire (pts (xy 62.865 48.26) (xy 62.865 46.99))
     (stroke (width 0) (type default))
     (uuid c3d2f222-76a2-431e-b913-d0de067a3205)
@@ -1178,6 +1285,15 @@
     (stroke (width 0) (type default))
     (uuid d69c0a41-f450-461a-bead-95f546c59e33)
   )
+  (bus (pts (xy 49.657 104.775) (xy 86.868 104.775))
+    (stroke (width 0) (type default))
+    (uuid dc0374f2-b817-4c4a-a59d-ffea5fafc987)
+  )
+  (bus (pts (xy 49.657 104.775) (xy 49.657 131.953))
+    (stroke (width 0) (type default))
+    (uuid dc7acbb1-eaf2-4198-b93e-ba357e1ce319)
+  )
+
   (wire (pts (xy 102.87 33.02) (xy 102.87 34.29))
     (stroke (width 0) (type solid))
     (uuid dce5d586-c714-4fb2-b09b-7349f454d086)
@@ -1199,6 +1315,10 @@
     (uuid fd9d69a6-267e-40ec-9c4f-7ac254ba7200)
   )
 
+  (text "Pico EZmate" (at 74.295 131.445 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a289f897-2049-4895-962b-26df04808ee9)
+  )
   (text "USB-C and ESD" (at 21.59 31.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cbaef947-01e2-47cd-9a09-974aeafbb779)
@@ -1207,17 +1327,35 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid eeedd7b4-ec86-4a55-b9ff-a372ddcc488f)
   )
+  (text "JST" (at 45.085 131.445 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f8abe186-b1de-4a23-a885-6ca57c9f7a5d)
+  )
 
   (label "VBUS_fuse" (at 118.11 56.515 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 813e2ab3-0112-452f-bb87-590daff14411)
   )
 
+  (global_label "D_P" (shape input) (at 28.575 117.475 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 02d7eeef-d273-4f97-8627-d9e00a911a4e)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 22.1616 117.475 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "VBUS" (shape input) (at 52.07 41.91 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 1a0b1e90-2f89-4f15-ab24-1eea9b550e5f)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 59.8744 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "D_N" (shape input) (at 64.135 114.935 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 570c2b75-6f4d-4238-8721-abad5d60d23b)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 57.6611 114.935 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "D_N" (shape input) (at 99.695 72.39 180) (fields_autoplaced)
@@ -1248,11 +1386,25 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "D_N" (shape input) (at 28.575 114.935 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid dadb4bde-55d3-40fe-aa5b-9948a2a55b70)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 22.1011 114.935 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
+  )
   (global_label "D_P" (shape input) (at 125.73 72.39 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid e5af7e67-f736-46c4-9c6c-b3789d20ecf5)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.1434 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
+  (global_label "D_P" (shape input) (at 64.135 117.475 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid fa0a9631-9430-4d69-907c-0bfeb13b128f)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 57.7216 117.475 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
 
@@ -1285,7 +1437,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C6") (unit 1)
         )
@@ -1327,7 +1479,7 @@
     (pin "3" (uuid c0752799-12a7-4163-9041-c5fa54acdb07))
     (pin "4" (uuid 77b94cd4-e851-4bd2-b7b4-00bfe1274445))
     (instances
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "U58") (unit 1)
         )
@@ -1365,7 +1517,7 @@
     )
     (pin "1" (uuid 4b212dc6-f88e-47a5-8c95-57f17da5fcdb))
     (instances
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR089") (unit 1)
         )
@@ -1411,7 +1563,7 @@
           (reference "U?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "U52") (unit 1)
         )
@@ -1449,7 +1601,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR042") (unit 1)
         )
@@ -1488,7 +1640,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "R3") (unit 1)
         )
@@ -1518,7 +1670,7 @@
     )
     (pin "1" (uuid 07862b07-9a6c-47c0-b4ad-237bfa31017e))
     (instances
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR054") (unit 1)
         )
@@ -1551,7 +1703,7 @@
     )
     (pin "1" (uuid 6f5008da-6753-4fc8-9f14-ee408f104fd3))
     (instances
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR041") (unit 1)
         )
@@ -1584,7 +1736,7 @@
     )
     (pin "1" (uuid a7cabaf6-231a-42e6-a740-17173816f305))
     (instances
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "#PWR091") (unit 1)
         )
@@ -1614,7 +1766,7 @@
     )
     (pin "1" (uuid 18ba0a15-9137-44d6-8d4b-3ccbbc88f65a))
     (instances
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "#PWR0104") (unit 1)
         )
@@ -1648,7 +1800,7 @@
     (pin "1" (uuid 76f5c648-9688-4975-ab73-8cb972994844))
     (pin "2" (uuid d1e925a1-79cd-4992-a7f5-0bf087689dba))
     (instances
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "F2") (unit 1)
         )
@@ -1659,6 +1811,225 @@
       (project "le_capybara"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
           (reference "F1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin") (at 33.655 114.935 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7ea26d51-09db-472a-a753-b1e99834e944)
+    (property "Reference" "J1" (at 36.576 115.2905 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "JST SH" (at 36.576 117.8305 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" (at 33.655 114.935 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 33.655 114.935 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 32964bdf-1fbc-47b7-b389-dc00c34a68f3))
+    (pin "2" (uuid 18905adc-0248-47fb-9674-f629d83d0c30))
+    (pin "3" (uuid 7a5b6c53-4277-4f52-bd19-4c881b103b69))
+    (pin "4" (uuid c6ca86e6-011c-43d0-85f6-3224230f6a53))
+    (pin "MP" (uuid 58c83ba7-ac67-4d7b-a359-68258fb14eef))
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "tinyv pcb"
+        (path "/71d0184f-aa0c-48df-a58d-1b03357fe306"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "Tiny Dimply Qazy"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "J1") (unit 1)
+        )
+      )
+      (project "mekanisk-40"
+        (path "/f5e5948c-eeca-4160-a5f8-686f765d01ce"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 28.575 120.015 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8351dd2a-d8d8-413f-8bb8-abd480f83f18)
+    (property "Reference" "#PWR056" (at 28.575 126.365 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 28.575 124.4584 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 28.575 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 28.575 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 000616df-3695-4f04-89ec-a44d6374d477))
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "#PWR056") (unit 1)
+        )
+      )
+      (project "tinyv pcb"
+        (path "/71d0184f-aa0c-48df-a58d-1b03357fe306"
+          (reference "#PWR011") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
+          (reference "#PWR0135") (unit 1)
+        )
+      )
+      (project "Tiny Dimply Qazy"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR07") (unit 1)
+        )
+      )
+      (project "mekanisk-40"
+        (path "/f5e5948c-eeca-4160-a5f8-686f765d01ce"
+          (reference "#PWR020") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 64.135 112.395 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9486ef1c-01af-4846-951b-cf7128a8e834)
+    (property "Reference" "#PWR0102" (at 64.135 116.205 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 64.135 107.315 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 64.135 112.395 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 64.135 112.395 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 28e726bd-f31a-4a51-8855-97b00ff2bb50))
+    (instances
+      (project "pteropus"
+        (path "/217f1d48-d741-4a36-b228-a5b2ca05ca9a"
+          (reference "#PWR0102") (unit 1)
+        )
+      )
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "#PWR038") (unit 1)
+        )
+      )
+      (project "tinyv pcb"
+        (path "/71d0184f-aa0c-48df-a58d-1b03357fe306"
+          (reference "#PWR010") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
+          (reference "#PWR0133") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 33.655 125.095 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 94c1644a-e5fe-44d1-8699-302b2fdc03a6)
+    (property "Reference" "#PWR058" (at 33.655 131.445 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 33.655 129.5384 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 33.655 125.095 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 33.655 125.095 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6f342a21-f3d6-4e14-ad1c-8bc6c6508298))
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "#PWR058") (unit 1)
+        )
+      )
+      (project "tinyv pcb"
+        (path "/71d0184f-aa0c-48df-a58d-1b03357fe306"
+          (reference "#PWR013") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
+          (reference "#PWR0139") (unit 1)
+        )
+      )
+      (project "Tiny Dimply Qazy"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR08") (unit 1)
+        )
+      )
+      (project "mekanisk-40"
+        (path "/f5e5948c-eeca-4160-a5f8-686f765d01ce"
+          (reference "#PWR022") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 28.575 112.395 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 9565c89f-911b-4a59-87fb-5f9f53bd0973)
+    (property "Reference" "#PWR0102" (at 28.575 116.205 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 28.575 107.315 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 28.575 112.395 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 28.575 112.395 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6d5f3a0c-5252-4da9-bd7c-3668c9157071))
+    (instances
+      (project "pteropus"
+        (path "/217f1d48-d741-4a36-b228-a5b2ca05ca9a"
+          (reference "#PWR0102") (unit 1)
+        )
+      )
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "#PWR037") (unit 1)
+        )
+      )
+      (project "tinyv pcb"
+        (path "/71d0184f-aa0c-48df-a58d-1b03357fe306"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
+          (reference "#PWR0131") (unit 1)
         )
       )
     )
@@ -1686,7 +2057,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR043") (unit 1)
         )
@@ -1719,7 +2090,7 @@
     )
     (pin "1" (uuid 1fc83b68-dea0-4fef-8703-e2086cd022f4))
     (instances
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR045") (unit 1)
         )
@@ -1752,7 +2123,7 @@
     )
     (pin "1" (uuid 60dcea92-aa08-4895-bdc9-4bc4f17f8487))
     (instances
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR087") (unit 1)
         )
@@ -1763,6 +2134,51 @@
       (project "le_capybara"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
           (reference "#PWR018") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 64.135 120.015 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid aa775bbe-62e0-4799-8100-053e7806fa19)
+    (property "Reference" "#PWR057" (at 64.135 126.365 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 64.135 124.4584 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 64.135 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 64.135 120.015 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f2d62db7-db21-4c19-9858-a223c0351b67))
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "#PWR057") (unit 1)
+        )
+      )
+      (project "tinyv pcb"
+        (path "/71d0184f-aa0c-48df-a58d-1b03357fe306"
+          (reference "#PWR012") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
+          (reference "#PWR0137") (unit 1)
+        )
+      )
+      (project "Tiny Dimply Qazy"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR0101") (unit 1)
+        )
+      )
+      (project "mekanisk-40"
+        (path "/f5e5948c-eeca-4160-a5f8-686f765d01ce"
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1794,7 +2210,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C4") (unit 1)
         )
@@ -1805,6 +2221,55 @@
       (project "le_capybara"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
           (reference "C6") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector_Generic_MountingPin:Conn_01x04_MountingPin") (at 69.215 114.935 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bb477d61-0e31-441e-8f76-be9e5de497e7)
+    (property "Reference" "J2" (at 71.628 115.2905 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "Pico EZmate" (at 71.628 117.8305 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Connector_Molex:Molex_Pico-EZmate_78171-0004_1x04-1MP_P1.20mm_Vertical" (at 69.215 114.935 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 69.215 114.935 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid b91d8149-6f44-4b0b-a566-503754339d1d))
+    (pin "2" (uuid bc5a7116-11a5-4fec-a9f1-326fbc87fa5e))
+    (pin "3" (uuid 0033c611-8b7c-4cc0-9ad7-420871557f3c))
+    (pin "4" (uuid 211cc5e0-6f85-4e53-afb0-1255a7c8656c))
+    (pin "MP" (uuid 442ea4eb-75d0-47bd-a44c-a9bb11b5789a))
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "tinyv pcb"
+        (path "/71d0184f-aa0c-48df-a58d-1b03357fe306"
+          (reference "J2") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
+          (reference "J3") (unit 1)
+        )
+      )
+      (project "Tiny Dimply Qazy"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "J3") (unit 1)
+        )
+      )
+      (project "mekanisk-40"
+        (path "/f5e5948c-eeca-4160-a5f8-686f765d01ce"
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1827,7 +2292,7 @@
     )
     (pin "1" (uuid a1c90b1d-8099-4592-90d5-5d7d11fe8033))
     (instances
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR079") (unit 1)
         )
@@ -1838,6 +2303,51 @@
       (project "le_capybara"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
           (reference "#PWR017") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 69.215 125.095 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c151995d-d7fd-4a3b-aada-5130d2765523)
+    (property "Reference" "#PWR059" (at 69.215 131.445 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 69.215 129.5384 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 69.215 125.095 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 69.215 125.095 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8cc9c8ec-bab5-46ea-9a9e-19a8e659b009))
+    (instances
+      (project "the-nicholas-van"
+        (path "/38f182bd-9097-4ce3-95d4-cd91b210c79b"
+          (reference "#PWR059") (unit 1)
+        )
+      )
+      (project "tinyv pcb"
+        (path "/71d0184f-aa0c-48df-a58d-1b03357fe306"
+          (reference "#PWR014") (unit 1)
+        )
+      )
+      (project "vootington VAN"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
+          (reference "#PWR0152") (unit 1)
+        )
+      )
+      (project "Tiny Dimply Qazy"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR0103") (unit 1)
+        )
+      )
+      (project "mekanisk-40"
+        (path "/f5e5948c-eeca-4160-a5f8-686f765d01ce"
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1873,7 +2383,7 @@
     (pin "1" (uuid 9a6d63a2-f825-497c-a6b1-c6b70002d63d))
     (pin "2" (uuid af4e9588-1b53-4ede-a3d2-a1972c7622b3))
     (instances
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "L1") (unit 1)
         )
@@ -1917,7 +2427,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "R4") (unit 1)
         )
@@ -1956,7 +2466,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C5") (unit 1)
         )
@@ -2014,7 +2524,7 @@
     (pin "B9" (uuid 807ca67d-ee14-46c7-9a1c-7d25666dba72))
     (pin "S1" (uuid 2e3d53bb-0a0d-49b8-bda0-f055452f431f))
     (instances
-      (project "vootington V4N"
+      (project "vootington VAN"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "J2") (unit 1)
         )
