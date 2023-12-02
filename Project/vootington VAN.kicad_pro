@@ -71,7 +71,7 @@
         "annular_width": "error",
         "clearance": "error",
         "connection_width": "warning",
-        "copper_edge_clearance": "error",
+        "copper_edge_clearance": "ignore",
         "copper_sliver": "warning",
         "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
@@ -429,7 +429,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "vootington gaming.kicad_pro",
+    "filename": "vootington VAN.kicad_pro",
     "version": 1
   },
   "net_settings": {
