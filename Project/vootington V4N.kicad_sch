@@ -3878,7 +3878,7 @@
   (symbol (lib_id "49e:Hall_Sensor") (at 64.135 202.946 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 67d24145-fff0-4f40-8c7c-e84d5e2b404a)
-    (property "Reference" "U4" (at 50.165 203.581 0)
+    (property "Reference" "U4" (at 57.785 203.835 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SLSS49E-3" (at 59.6138 204.089 0)
