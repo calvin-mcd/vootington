@@ -468,6 +468,70 @@
         )
       )
     )
+    (symbol "Device:D_TVS" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "D_TVS" (at 0 -2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "diode TVS thyrector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Bidirectional transient-voltage-suppression diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "D_TVS_0_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.508 1.27)
+            (xy 0 1.27)
+            (xy 0 -1.27)
+            (xy -0.508 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -2.54 1.27)
+            (xy -2.54 -1.27)
+            (xy 2.54 1.27)
+            (xy 2.54 -1.27)
+            (xy -2.54 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "D_TVS_1_1"
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "A1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:Polyfuse" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "F" (at -2.54 0 90)
         (effects (font (size 1.27 1.27)))
@@ -746,147 +810,6 @@
         )
       )
     )
-    (symbol "Unified-Daughterboard-rescue:L_Core_Ferrite-Device" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "L" (at -1.27 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Device_L_Core_Ferrite" (at 2.794 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "L_Core_Ferrite-Device_0_1"
-        (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (arc (start 0 -1.27) (mid 0.6323 -0.635) (end 0 0)
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 -2.794)
-            (xy 1.016 -2.286)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 -1.778)
-            (xy 1.016 -1.27)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 -0.762)
-            (xy 1.016 -0.254)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 0.254)
-            (xy 1.016 0.762)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 1.27)
-            (xy 1.016 1.778)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 2.286)
-            (xy 1.016 2.794)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.524 -2.286)
-            (xy 1.524 -2.794)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.524 -1.27)
-            (xy 1.524 -1.778)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.524 -0.254)
-            (xy 1.524 -0.762)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.524 0.762)
-            (xy 1.524 0.254)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.524 1.778)
-            (xy 1.524 1.27)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.524 2.794)
-            (xy 1.524 2.286)
-          )
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (arc (start 0 0) (mid 0.6323 0.635) (end 0 1.27)
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-        (arc (start 0 1.27) (mid 0.6323 1.905) (end 0 2.54)
-          (stroke (width 0) (type solid))
-          (fill (type none))
-        )
-      )
-      (symbol "L_Core_Ferrite-Device_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "2" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "kicad-keyboard-parts:XC6206PxxxMR-Regulator_Linear" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -3.81 3.175 0)
         (effects (font (size 1.27 1.27)))
@@ -1103,10 +1026,10 @@
   (junction (at 53.34 55.88) (diameter 0) (color 0 0 0 0)
     (uuid 881c4412-0b84-4d71-b0b0-4c380613522d)
   )
-  (junction (at 113.03 56.515) (diameter 0) (color 0 0 0 0)
+  (junction (at 113.03 55.88) (diameter 0) (color 0 0 0 0)
     (uuid 8a637d29-aede-4268-8502-4389f35660d6)
   )
-  (junction (at 133.35 56.515) (diameter 0) (color 0 0 0 0)
+  (junction (at 133.35 55.88) (diameter 0) (color 0 0 0 0)
     (uuid eaad4e99-909b-44bf-b0be-94ff1dfe16e1)
   )
   (junction (at 49.657 104.775) (diameter 0) (color 0 0 0 0)
@@ -1116,7 +1039,7 @@
   (no_connect (at 52.07 69.85) (uuid 3da7498a-4a19-42d7-a949-15fa54ff520d))
   (no_connect (at 52.07 72.39) (uuid 69e73195-8bae-4a76-8d95-c41d58ca2957))
 
-  (wire (pts (xy 99.695 72.39) (xy 100.33 72.39))
+  (wire (pts (xy 99.695 71.755) (xy 100.33 71.755))
     (stroke (width 0) (type default))
     (uuid 024b083b-49bf-4b6f-b0d4-70db83b70c08)
   )
@@ -1128,7 +1051,7 @@
     (stroke (width 0) (type solid))
     (uuid 04ba29f7-c3f5-41fc-9032-ca22f14718da)
   )
-  (wire (pts (xy 113.03 85.725) (xy 113.03 85.09))
+  (wire (pts (xy 113.03 85.09) (xy 113.03 84.455))
     (stroke (width 0) (type default))
     (uuid 11f09c74-59af-4f99-b024-6ac2f06bc9ae)
   )
@@ -1156,10 +1079,6 @@
   (wire (pts (xy 52.07 59.69) (xy 53.34 59.69))
     (stroke (width 0) (type default))
     (uuid 333eb9bb-02ca-456d-8350-16669b39af0b)
-  )
-  (wire (pts (xy 144.145 34.163) (xy 144.145 33.528))
-    (stroke (width 0) (type default))
-    (uuid 3a4d9c3c-14bd-4296-9d67-ee72bec2ad93)
   )
   (wire (pts (xy 123.19 31.75) (xy 123.19 33.02))
     (stroke (width 0) (type default))
@@ -1195,23 +1114,23 @@
     (uuid 5b5de311-ae0f-42a4-b59f-8075edf9c8f9)
   )
 
+  (wire (pts (xy 153.67 33.02) (xy 155.575 33.02))
+    (stroke (width 0) (type default))
+    (uuid 652a3b92-363c-4d20-8821-43855fe752e9)
+  )
   (wire (pts (xy 102.87 39.37) (xy 102.87 40.64))
     (stroke (width 0) (type solid))
     (uuid 6bbb5a5f-6fd3-4a15-b450-b14e664c6e84)
   )
-  (wire (pts (xy 133.35 53.975) (xy 133.35 56.515))
+  (wire (pts (xy 133.35 53.34) (xy 133.35 55.88))
     (stroke (width 0) (type default))
     (uuid 72bb49e4-0031-472d-b88f-41154f268bfb)
   )
-  (wire (pts (xy 158.75 33.528) (xy 154.94 33.528))
-    (stroke (width 0) (type default))
-    (uuid 72ee1f53-7085-4dcd-881f-abc17d655c50)
-  )
-  (wire (pts (xy 105.41 56.515) (xy 113.03 56.515))
+  (wire (pts (xy 105.41 55.88) (xy 113.03 55.88))
     (stroke (width 0) (type default))
     (uuid 752056d1-2416-4b19-9fd0-c8f1bb839ea7)
   )
-  (wire (pts (xy 113.03 56.515) (xy 113.03 59.69))
+  (wire (pts (xy 113.03 55.88) (xy 113.03 59.055))
     (stroke (width 0) (type default))
     (uuid 789b3483-2501-4eb0-ac4f-b5e12150c53c)
   )
@@ -1219,17 +1138,13 @@
     (stroke (width 0) (type default))
     (uuid 7a999fcc-f575-42dc-a593-e88330b4bca4)
   )
-  (wire (pts (xy 113.03 56.515) (xy 133.35 56.515))
+  (wire (pts (xy 113.03 55.88) (xy 133.35 55.88))
     (stroke (width 0) (type default))
     (uuid 85b6d63f-d17a-495f-9bcd-566383e72a54)
   )
   (wire (pts (xy 29.21 80.01) (xy 29.21 81.28))
     (stroke (width 0) (type default))
     (uuid 868cb275-b0cd-4563-b934-26a7b3eb6906)
-  )
-  (wire (pts (xy 158.75 34.29) (xy 158.75 33.528))
-    (stroke (width 0) (type default))
-    (uuid 907b8b94-3234-41b4-b4d3-d333e9f221c5)
   )
   (bus (pts (xy 86.995 104.775) (xy 86.995 131.953))
     (stroke (width 0) (type default))
@@ -1243,10 +1158,6 @@
   (wire (pts (xy 53.34 62.23) (xy 53.34 60.96))
     (stroke (width 0) (type default))
     (uuid a98cf4ee-5696-47d0-8373-6bcb527d6346)
-  )
-  (wire (pts (xy 144.145 33.528) (xy 147.32 33.528))
-    (stroke (width 0) (type default))
-    (uuid aa602c65-47a3-44c3-92a4-e361bda063a6)
   )
   (wire (pts (xy 36.83 81.28) (xy 36.83 80.01))
     (stroke (width 0) (type default))
@@ -1277,7 +1188,7 @@
     (stroke (width 0) (type default))
     (uuid d354acb2-78b4-4c46-9b6e-4d8b85f4785f)
   )
-  (wire (pts (xy 91.44 56.515) (xy 97.79 56.515))
+  (wire (pts (xy 91.44 55.88) (xy 97.79 55.88))
     (stroke (width 0) (type default))
     (uuid d44f2d28-9323-4b83-82f8-486125a79540)
   )
@@ -1297,6 +1208,10 @@
   (wire (pts (xy 102.87 33.02) (xy 102.87 34.29))
     (stroke (width 0) (type solid))
     (uuid dce5d586-c714-4fb2-b09b-7349f454d086)
+  )
+  (wire (pts (xy 142.875 33.02) (xy 146.05 33.02))
+    (stroke (width 0) (type default))
+    (uuid dd2e7f5e-a25a-4029-a40b-ca258a24026e)
   )
   (wire (pts (xy 29.21 81.28) (xy 32.893 81.28))
     (stroke (width 0) (type default))
@@ -1332,7 +1247,7 @@
     (uuid f8abe186-b1de-4a23-a885-6ca57c9f7a5d)
   )
 
-  (label "VBUS_fuse" (at 118.11 56.515 0) (fields_autoplaced)
+  (label "VBUS_fuse" (at 118.11 55.88 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 813e2ab3-0112-452f-bb87-590daff14411)
   )
@@ -1358,10 +1273,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "D_N" (shape input) (at 99.695 72.39 180) (fields_autoplaced)
+  (global_label "D_N" (shape input) (at 99.695 71.755 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5eda118b-d139-44e5-ade7-42fe710d0ffa)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.2211 72.39 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 93.2211 71.755 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1372,10 +1287,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "VBUS" (shape input) (at 91.44 56.515 180) (fields_autoplaced)
+  (global_label "VBUS" (shape input) (at 91.44 55.88 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid cca05af6-c94c-4988-ad03-da7bb333e331)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 83.6356 56.515 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 83.6356 55.88 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -1393,10 +1308,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "D_P" (shape input) (at 125.73 72.39 0) (fields_autoplaced)
+  (global_label "D_P" (shape input) (at 125.73 71.755 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid e5af7e67-f736-46c4-9c6c-b3789d20ecf5)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.1434 72.39 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 132.1434 71.755 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1408,25 +1323,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 133.35 60.325 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 133.35 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0d31c136-9b62-4ad6-a45d-9377694aedba)
-    (property "Reference" "C?" (at 136.271 59.1566 0)
+    (property "Reference" "C?" (at 136.271 58.5216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100nF" (at 136.271 61.468 0)
+    (property "Value" "100nF" (at 136.271 60.833 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 134.3152 64.135 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 134.3152 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 133.35 60.325 0)
+    (property "Datasheet" "~" (at 133.35 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C307331" (at 133.35 60.325 0)
+    (property "LCSC" "C307331" (at 133.35 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JlcRotOffset" "" (at 133.35 60.325 0)
+    (property "JlcRotOffset" "" (at 133.35 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 38a6970c-f545-4476-8b42-dbe436e4f0ba))
@@ -1437,7 +1352,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C6") (unit 1)
         )
@@ -1453,25 +1368,25 @@
     )
   )
 
-  (symbol (lib_id "Power_Protection:PRTR5V0U2X") (at 113.03 72.39 0) (unit 1)
+  (symbol (lib_id "Power_Protection:PRTR5V0U2X") (at 113.03 71.755 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 10d29f2a-036d-475d-9336-7b887bee3122)
-    (property "Reference" "U58" (at 123.19 79.375 0)
+    (property "Reference" "U58" (at 123.19 78.74 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "PRTR5V0U2X" (at 127 81.915 0)
+    (property "Value" "PRTR5V0U2X" (at 127 81.28 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-143" (at 114.554 72.39 0)
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-143" (at 114.554 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" (at 114.554 72.39 0)
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" (at 114.554 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C2827688" (at 113.03 72.39 0)
+    (property "LCSC" "C2827688" (at 113.03 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "JlcRotOffset" "90" (at 113.03 72.39 0)
+    (property "JlcRotOffset" "90" (at 113.03 71.755 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ee466a76-90e3-4862-8b84-c8fc77093cd0))
@@ -1479,7 +1394,7 @@
     (pin "3" (uuid c0752799-12a7-4163-9041-c5fa54acdb07))
     (pin "4" (uuid 77b94cd4-e851-4bd2-b7b4-00bfe1274445))
     (instances
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "U58") (unit 1)
         )
@@ -1500,24 +1415,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 113.03 85.725 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 113.03 85.09 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e0da5d1-cdc9-4113-a1b2-0a6194626780)
-    (property "Reference" "#PWR089" (at 113.03 92.075 0)
+    (property "Reference" "#PWR089" (at 113.03 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 113.03 90.17 0)
+    (property "Value" "GND" (at 113.03 89.535 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 113.03 85.725 0)
+    (property "Footprint" "" (at 113.03 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 113.03 85.725 0)
+    (property "Datasheet" "" (at 113.03 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4b212dc6-f88e-47a5-8c95-57f17da5fcdb))
     (instances
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR089") (unit 1)
         )
@@ -1563,7 +1478,7 @@
           (reference "U?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "U52") (unit 1)
         )
@@ -1574,6 +1489,41 @@
       (project "le_capybara"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
           (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 155.575 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 2559010f-1d3b-4c8e-bd16-099edea80b6e)
+    (property "Reference" "#PWR0155" (at 155.575 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 155.702 37.4142 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 155.575 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 155.575 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 47cdcfc7-deb9-468e-957c-0baff4ea4831))
+    (instances
+      (project "vootington minivan"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
+          (reference "#PWR0155") (unit 1)
+        )
+      )
+      (project "Tiny Dimply Qazy"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR018") (unit 1)
+        )
+      )
+      (project "forti"
+        (path "/f5e5948c-eeca-4160-a5f8-686f765d01ce"
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -1601,7 +1551,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR042") (unit 1)
         )
@@ -1640,7 +1590,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "R3") (unit 1)
         )
@@ -1648,39 +1598,6 @@
       (project "le_capybara"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
           (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 158.75 34.29 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3a6355bb-7b57-4e3d-af95-4699dd9c02f7)
-    (property "Reference" "#PWR054" (at 158.75 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 158.75 38.735 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 158.75 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 158.75 34.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 07862b07-9a6c-47c0-b4ad-237bfa31017e))
-    (instances
-      (project "vootington V4N"
-        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
-          (reference "#PWR054") (unit 1)
-        )
-        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR045") (unit 1)
-        )
-      )
-      (project "le_capybara"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
-          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -1703,7 +1620,7 @@
     )
     (pin "1" (uuid 6f5008da-6753-4fc8-9f14-ee408f104fd3))
     (instances
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR041") (unit 1)
         )
@@ -1714,6 +1631,42 @@
       (project "le_capybara"
         (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
           (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:D_TVS") (at 149.86 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4b3dccc6-f17a-4ed5-a511-0a3db4dbc2d5)
+    (property "Reference" "D_PWR1" (at 149.86 26.035 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "SMF9.0CA" (at 149.86 28.575 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Diode_SMD:D_SOD-123" (at 149.86 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 149.86 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 403eef2f-c0be-4fe6-b9b3-1303bb10ae68))
+    (pin "2" (uuid 20d1b8b1-9d70-4581-b799-38f14f58a69c))
+    (instances
+      (project "vootington minivan"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
+          (reference "D_PWR1") (unit 1)
+        )
+      )
+      (project "Tiny Dimply Qazy"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "D_PWR1") (unit 1)
+        )
+      )
+      (project "forti"
+        (path "/f5e5948c-eeca-4160-a5f8-686f765d01ce"
+          (reference "D_PWR1") (unit 1)
         )
       )
     )
@@ -1736,7 +1689,7 @@
     )
     (pin "1" (uuid a7cabaf6-231a-42e6-a740-17173816f305))
     (instances
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "#PWR091") (unit 1)
         )
@@ -1766,7 +1719,7 @@
     )
     (pin "1" (uuid 18ba0a15-9137-44d6-8d4b-3ccbbc88f65a))
     (instances
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "#PWR0104") (unit 1)
         )
@@ -1779,28 +1732,28 @@
     )
   )
 
-  (symbol (lib_id "Device:Polyfuse") (at 101.6 56.515 90) (unit 1)
+  (symbol (lib_id "Device:Polyfuse") (at 101.6 55.88 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7b0f1ae9-2ec7-400c-90eb-8369b8f2feec)
-    (property "Reference" "F2" (at 101.6 51.435 90)
+    (property "Reference" "F2" (at 101.6 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "ASMD1206-150" (at 101.6 53.975 90)
+    (property "Value" "ASMD1206-150" (at 101.6 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Fuse:Fuse_1206_3216Metric" (at 106.68 55.245 0)
+    (property "Footprint" "Fuse:Fuse_1206_3216Metric" (at 106.68 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Datasheet" "~" (at 101.6 56.515 0)
+    (property "Datasheet" "~" (at 101.6 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C135341" (at 101.6 56.515 90)
+    (property "LCSC" "C135341" (at 101.6 55.88 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 76f5c648-9688-4975-ab73-8cb972994844))
     (pin "2" (uuid d1e925a1-79cd-4992-a7f5-0bf087689dba))
     (instances
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "F2") (unit 1)
         )
@@ -1847,7 +1800,7 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "J1") (unit 1)
         )
@@ -1892,7 +1845,7 @@
           (reference "#PWR011") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "#PWR0135") (unit 1)
         )
@@ -1942,9 +1895,44 @@
           (reference "#PWR010") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "#PWR0133") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 142.875 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 948edb81-5fd5-4ba8-9944-4407c07bbed8)
+    (property "Reference" "#PWR0154" (at 142.875 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 142.875 27.94 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 142.875 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 142.875 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9e1c90ae-99aa-4c0f-9136-97f8e9848555))
+    (instances
+      (project "vootington minivan"
+        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
+          (reference "#PWR0154") (unit 1)
+        )
+      )
+      (project "RP2040-Guide"
+        (path "/ba62e47e-9e07-4e97-ab08-24b670d50f97"
+          (reference "#PWR09") (unit 1)
+        )
+      )
+      (project "forti"
+        (path "/f5e5948c-eeca-4160-a5f8-686f765d01ce"
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -1977,7 +1965,7 @@
           (reference "#PWR013") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "#PWR0139") (unit 1)
         )
@@ -2027,7 +2015,7 @@
           (reference "#PWR09") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "#PWR0131") (unit 1)
         )
@@ -2057,7 +2045,7 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR043") (unit 1)
         )
@@ -2073,57 +2061,24 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 144.145 34.163 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a7981cf7-80c1-46f8-9398-ebfa71146770)
-    (property "Reference" "#PWR045" (at 144.145 40.513 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 144.145 38.608 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 144.145 34.163 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 144.145 34.163 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1fc83b68-dea0-4fef-8703-e2086cd022f4))
-    (instances
-      (project "vootington V4N"
-        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
-          (reference "#PWR045") (unit 1)
-        )
-        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR043") (unit 1)
-        )
-      )
-      (project "le_capybara"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
-          (reference "#PWR013") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 133.35 64.135 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 133.35 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9ddf183-6dbc-418b-99c9-ba0a03a9c168)
-    (property "Reference" "#PWR087" (at 133.35 70.485 0)
+    (property "Reference" "#PWR087" (at 133.35 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 133.35 68.58 0)
+    (property "Value" "GND" (at 133.35 67.945 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 133.35 64.135 0)
+    (property "Footprint" "" (at 133.35 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 133.35 64.135 0)
+    (property "Datasheet" "" (at 133.35 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 60dcea92-aa08-4895-bdc9-4bc4f17f8487))
     (instances
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR087") (unit 1)
         )
@@ -2166,7 +2121,7 @@
           (reference "#PWR012") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "#PWR0137") (unit 1)
         )
@@ -2210,7 +2165,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C4") (unit 1)
         )
@@ -2257,7 +2212,7 @@
           (reference "J2") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "J3") (unit 1)
         )
@@ -2275,24 +2230,24 @@
     )
   )
 
-  (symbol (lib_name "+5V_1") (lib_id "power:+5V") (at 133.35 53.975 0) (unit 1)
+  (symbol (lib_name "+5V_1") (lib_id "power:+5V") (at 133.35 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid beffdd07-fd1d-40bd-8afa-b0b4ebcfaf68)
-    (property "Reference" "#PWR079" (at 133.35 57.785 0)
+    (property "Reference" "#PWR079" (at 133.35 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5V" (at 133.35 49.53 0)
+    (property "Value" "+5V" (at 133.35 48.895 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 133.35 53.975 0)
+    (property "Footprint" "" (at 133.35 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 133.35 53.975 0)
+    (property "Datasheet" "" (at 133.35 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a1c90b1d-8099-4592-90d5-5d7d11fe8033))
     (instances
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR079") (unit 1)
         )
@@ -2335,7 +2290,7 @@
           (reference "#PWR014") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "#PWR0152") (unit 1)
         )
@@ -2348,57 +2303,6 @@
       (project "mekanisk-40"
         (path "/f5e5948c-eeca-4160-a5f8-686f765d01ce"
           (reference "#PWR023") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Unified-Daughterboard-rescue:L_Core_Ferrite-Device") (at 151.13 33.528 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid c6ca3dee-a87e-485d-b95b-fe5c17821a45)
-    (property "Reference" "L1" (at 152.4 27.178 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "60R@100MHz" (at 157.48 29.718 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Inductor_SMD:L_1206_3216Metric" (at 151.13 33.528 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 151.13 33.528 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "MELED Industrial" (at 151.13 33.528 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer Part No" "MLB3216-600P4A(f)" (at 151.13 33.528 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C33600" (at 151.13 33.528 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "L1206" (at 151.13 33.528 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9a6d63a2-f825-497c-a6b1-c6b70002d63d))
-    (pin "2" (uuid af4e9588-1b53-4ede-a3d2-a1972c7622b3))
-    (instances
-      (project "vootington V4N"
-        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
-          (reference "L1") (unit 1)
-        )
-        (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "L1") (unit 1)
-        )
-      )
-      (project "le_capybara"
-        (path "/ca0d59d2-7f9b-4344-99bc-39bc2c8c88cb"
-          (reference "L1") (unit 1)
-        )
-      )
-      (project "Unified-Daughterboard"
-        (path "/f5339bf7-531e-4b56-8a7a-f20e5d91e380"
-          (reference "L1") (unit 1)
         )
       )
     )
@@ -2427,7 +2331,7 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "R4") (unit 1)
         )
@@ -2466,7 +2370,7 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C5") (unit 1)
         )
@@ -2524,7 +2428,7 @@
     (pin "B9" (uuid 807ca67d-ee14-46c7-9a1c-7d25666dba72))
     (pin "S1" (uuid 2e3d53bb-0a0d-49b8-bda0-f055452f431f))
     (instances
-      (project "vootington V4N"
+      (project "vootington minivan"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "J2") (unit 1)
         )
