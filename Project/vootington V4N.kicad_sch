@@ -700,7 +700,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_stab") (at 171.704 383.286 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 007e0fce-fbef-4fa5-a439-306575435049)
-    (property "Reference" "S2" (at 178.308 382.524 0)
+    (property "Reference" "S4" (at 178.308 382.524 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX_stab" (at 178.308 385.064 0)
@@ -715,7 +715,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "S2") (unit 1)
+          (reference "S4") (unit 1)
         )
       )
     )
@@ -745,7 +745,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0188") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -775,7 +775,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -813,7 +813,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U39") (unit 1)
+          (reference "U38") (unit 1)
         )
       )
     )
@@ -822,7 +822,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 170.18 285.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0517b7a4-f7f4-48c9-ade0-02694322ce6c)
-    (property "Reference" "K_6" (at 170.18 279.8318 0)
+    (property "Reference" "K_12" (at 170.18 279.8318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 170.18 288.29 0)
@@ -839,7 +839,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_6") (unit 1)
+          (reference "K_12") (unit 1)
         )
       )
     )
@@ -848,7 +848,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 246.38 361.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 05ec4739-f96e-4da0-a7ec-cdf43f8d0e88)
-    (property "Reference" "K_43" (at 246.38 356.0318 0)
+    (property "Reference" "K_50" (at 246.38 356.0318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 246.38 364.49 0)
@@ -865,7 +865,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_43") (unit 1)
+          (reference "K_50") (unit 1)
         )
       )
     )
@@ -895,7 +895,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -967,7 +967,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0151") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -997,7 +997,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0212") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -1027,7 +1027,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0230") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -1065,7 +1065,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U47") (unit 1)
+          (reference "U43") (unit 1)
         )
       )
     )
@@ -1074,7 +1074,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 297.18 361.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0de98681-b326-4c2a-8997-f58d8665a8cc)
-    (property "Reference" "K_45" (at 297.18 356.0318 0)
+    (property "Reference" "K_52" (at 297.18 356.0318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 297.18 364.49 0)
@@ -1091,7 +1091,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_45") (unit 1)
+          (reference "K_52") (unit 1)
         )
       )
     )
@@ -1121,7 +1121,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1172,7 +1172,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 170.18 266.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1181a0a2-e551-43eb-a06a-98436a4d1a08)
-    (property "Reference" "K_53" (at 170.18 260.7818 0)
+    (property "Reference" "K_6" (at 170.18 260.7818 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 170.18 269.24 0)
@@ -1189,7 +1189,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_53") (unit 1)
+          (reference "K_6") (unit 1)
         )
       )
     )
@@ -1198,7 +1198,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 271.78 285.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 118b9f70-efc5-425c-a2b9-8a1d2fab205b)
-    (property "Reference" "K_10" (at 271.78 279.8318 0)
+    (property "Reference" "K_16" (at 271.78 279.8318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 271.78 288.29 0)
@@ -1215,7 +1215,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_10") (unit 1)
+          (reference "K_16") (unit 1)
         )
       )
     )
@@ -1245,7 +1245,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -1275,7 +1275,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR04") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -1313,7 +1313,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U37") (unit 1)
+          (reference "U35") (unit 1)
         )
       )
     )
@@ -1343,7 +1343,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -1373,7 +1373,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0145") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -1411,7 +1411,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U34") (unit 1)
+          (reference "U32") (unit 1)
         )
       )
     )
@@ -1462,7 +1462,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 170.18 311.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 16e3f210-83c4-4bf8-9268-6daefc06d485)
-    (property "Reference" "K_18" (at 170.18 305.2318 0)
+    (property "Reference" "K_24" (at 170.18 305.2318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 170.18 313.69 0)
@@ -1479,7 +1479,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_18") (unit 1)
+          (reference "K_24") (unit 1)
         )
       )
     )
@@ -1509,7 +1509,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0166") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -1518,7 +1518,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 220.98 311.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 199afe9f-22c5-42de-bd2f-7ba90e956357)
-    (property "Reference" "K_20" (at 220.98 305.2318 0)
+    (property "Reference" "K_26" (at 220.98 305.2318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 220.98 313.69 0)
@@ -1535,7 +1535,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_20") (unit 1)
+          (reference "K_26") (unit 1)
         )
       )
     )
@@ -1573,7 +1573,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U32") (unit 1)
+          (reference "U30") (unit 1)
         )
       )
     )
@@ -1582,7 +1582,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 144.78 266.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1bca7b78-d5a2-4060-8cc2-6996f5ea6de1)
-    (property "Reference" "K_52" (at 144.78 260.7818 0)
+    (property "Reference" "K_5" (at 144.78 260.7818 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 144.78 269.24 0)
@@ -1599,7 +1599,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_52") (unit 1)
+          (reference "K_5") (unit 1)
         )
       )
     )
@@ -1629,7 +1629,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0234") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -1659,7 +1659,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0206") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -1689,7 +1689,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1719,7 +1719,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -1749,7 +1749,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1779,7 +1779,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0192") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -1809,7 +1809,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1839,7 +1839,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -1848,7 +1848,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 322.58 336.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 253d51b2-e0eb-4123-89f7-37a5f958f95f)
-    (property "Reference" "K_36" (at 322.58 330.6318 0)
+    (property "Reference" "K_43" (at 322.58 330.6318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 322.58 339.09 0)
@@ -1865,7 +1865,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_36") (unit 1)
+          (reference "K_43") (unit 1)
         )
       )
     )
@@ -1903,7 +1903,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U19") (unit 1)
+          (reference "U17") (unit 1)
         )
       )
     )
@@ -1933,7 +1933,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -2001,7 +2001,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0141") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -2031,7 +2031,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR05") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -2061,7 +2061,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -2091,7 +2091,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0191") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -2100,7 +2100,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 93.98 285.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 30a5bd78-a987-453f-9529-ae5aa2b755d1)
-    (property "Reference" "K_3" (at 93.98 279.8318 0)
+    (property "Reference" "K_9" (at 93.98 279.8318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 93.98 288.29 0)
@@ -2117,7 +2117,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_3") (unit 1)
+          (reference "K_9") (unit 1)
         )
       )
     )
@@ -2126,7 +2126,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 297.18 336.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 31ef94c1-1077-4a49-9375-f70ed7bb484e)
-    (property "Reference" "K_35" (at 297.18 330.6318 0)
+    (property "Reference" "K_42" (at 297.18 330.6318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 297.18 339.09 0)
@@ -2143,7 +2143,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_35") (unit 1)
+          (reference "K_42") (unit 1)
         )
       )
     )
@@ -2181,7 +2181,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U6") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -2219,7 +2219,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U49") (unit 1)
+          (reference "U45") (unit 1)
         )
       )
     )
@@ -2257,7 +2257,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U60") (unit 1)
+          (reference "U50") (unit 1)
         )
       )
     )
@@ -2295,7 +2295,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U1") (unit 1)
+          (reference "U48") (unit 1)
         )
       )
     )
@@ -2304,7 +2304,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 271.78 311.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35eec28f-c5b9-4a51-a7b7-2aaf19278dfa)
-    (property "Reference" "K_22" (at 271.78 305.2318 0)
+    (property "Reference" "K_28" (at 271.78 305.2318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 271.78 313.69 0)
@@ -2321,7 +2321,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_22") (unit 1)
+          (reference "K_28") (unit 1)
         )
       )
     )
@@ -2330,7 +2330,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 93.98 361.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 364f1f25-0fbd-4611-b629-992954893a05)
-    (property "Reference" "K_39" (at 93.98 356.0318 0)
+    (property "Reference" "K_47" (at 93.98 356.0318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 93.98 364.49 0)
@@ -2347,7 +2347,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_39") (unit 1)
+          (reference "K_47") (unit 1)
         )
       )
     )
@@ -2356,7 +2356,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 405.765 267.335 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 367ce21e-9ad8-4b42-b33c-2e694db9a499)
-    (property "Reference" "H5" (at 408.305 266.7 0)
+    (property "Reference" "H2" (at 408.305 266.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 408.305 269.24 0)
@@ -2371,7 +2371,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "H5") (unit 1)
+          (reference "H2") (unit 1)
         )
       )
     )
@@ -2401,7 +2401,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0184") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -2431,7 +2431,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0122") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -2461,7 +2461,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0198") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -2499,7 +2499,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U21") (unit 1)
+          (reference "U19") (unit 1)
         )
       )
     )
@@ -2529,7 +2529,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR012") (unit 1)
         )
       )
     )
@@ -2538,7 +2538,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 144.78 311.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c54f902-c554-4ecc-a90e-562ba6ea72b8)
-    (property "Reference" "K_17" (at 144.78 305.2318 0)
+    (property "Reference" "K_23" (at 144.78 305.2318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 144.78 313.69 0)
@@ -2555,7 +2555,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_17") (unit 1)
+          (reference "K_23") (unit 1)
         )
       )
     )
@@ -2593,7 +2593,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U36") (unit 1)
+          (reference "U34") (unit 1)
         )
       )
     )
@@ -2623,7 +2623,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -2661,7 +2661,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U38") (unit 1)
+          (reference "U36") (unit 1)
         )
       )
     )
@@ -2699,7 +2699,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U2") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -2729,7 +2729,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR06") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -2809,7 +2809,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U27") (unit 1)
+          (reference "U26") (unit 1)
         )
       )
     )
@@ -2818,7 +2818,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 119.38 311.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47630094-abea-41d6-9f95-6b9713f650d8)
-    (property "Reference" "K_16" (at 119.38 305.2318 0)
+    (property "Reference" "K_22" (at 119.38 305.2318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 119.38 313.69 0)
@@ -2835,7 +2835,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_16") (unit 1)
+          (reference "K_22") (unit 1)
         )
       )
     )
@@ -2915,7 +2915,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U5") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
@@ -2924,7 +2924,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 195.58 361.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4c8c2053-7720-4299-9057-0376b4eafc11)
-    (property "Reference" "K_42" (at 195.58 356.0318 0)
+    (property "Reference" "K_49" (at 195.58 356.0318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 195.58 364.49 0)
@@ -2941,7 +2941,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_42") (unit 1)
+          (reference "K_49") (unit 1)
         )
       )
     )
@@ -2971,7 +2971,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0178") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -3001,7 +3001,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0196") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -3031,7 +3031,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0189") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -3069,7 +3069,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U35") (unit 1)
+          (reference "U33") (unit 1)
         )
       )
     )
@@ -3107,7 +3107,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U8") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -3137,7 +3137,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0190") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -3167,7 +3167,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0174") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -3176,7 +3176,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 271.78 361.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 541d93cb-7f69-4738-81af-76e572973675)
-    (property "Reference" "K_44" (at 271.78 356.0318 0)
+    (property "Reference" "K_51" (at 271.78 356.0318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 271.78 364.49 0)
@@ -3193,7 +3193,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_44") (unit 1)
+          (reference "K_51") (unit 1)
         )
       )
     )
@@ -3223,7 +3223,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0149") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -3261,7 +3261,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U10") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -3270,7 +3270,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 144.78 336.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 55a066a3-e7d6-409c-bd4f-a7bb38ab4ab6)
-    (property "Reference" "K_29" (at 144.78 330.6318 0)
+    (property "Reference" "K_36" (at 144.78 330.6318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 144.78 339.09 0)
@@ -3287,7 +3287,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_29") (unit 1)
+          (reference "K_36") (unit 1)
         )
       )
     )
@@ -3317,7 +3317,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0180") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -3326,7 +3326,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 220.98 285.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 56381500-0053-4757-b711-5e7c4396a226)
-    (property "Reference" "K_8" (at 220.98 279.8318 0)
+    (property "Reference" "K_14" (at 220.98 279.8318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 220.98 288.29 0)
@@ -3343,7 +3343,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_8") (unit 1)
+          (reference "K_14") (unit 1)
         )
       )
     )
@@ -3373,7 +3373,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR08") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -3382,7 +3382,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 43.18 361.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 575ee14f-e8fc-499a-9c9f-b788ec19367a)
-    (property "Reference" "K_37" (at 43.18 356.0318 0)
+    (property "Reference" "K_45" (at 43.18 356.0318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 43.18 364.49 0)
@@ -3399,7 +3399,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_37") (unit 1)
+          (reference "K_45") (unit 1)
         )
       )
     )
@@ -3429,7 +3429,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0142") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -3438,7 +3438,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 68.58 361.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 59194f8a-7964-41d8-a9b0-13c6d1dc02e9)
-    (property "Reference" "K_38" (at 68.58 356.0318 0)
+    (property "Reference" "K_46" (at 68.58 356.0318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 68.58 364.49 0)
@@ -3455,7 +3455,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_38") (unit 1)
+          (reference "K_46") (unit 1)
         )
       )
     )
@@ -3464,7 +3464,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 332.74 325.374 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 598a274e-31a2-4ffa-91c9-3d09ad8d456b)
-    (property "Reference" "K_47" (at 332.74 319.4558 0)
+    (property "Reference" "K_31" (at 332.74 319.4558 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 332.74 327.914 0)
@@ -3481,7 +3481,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_47") (unit 1)
+          (reference "K_31") (unit 1)
         )
       )
     )
@@ -3511,7 +3511,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0220") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -3541,7 +3541,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -3550,7 +3550,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_stab") (at 345.948 326.136 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c6d91df-1e18-4932-98da-026cab60abde)
-    (property "Reference" "S4" (at 352.552 325.374 0)
+    (property "Reference" "S1" (at 352.552 325.374 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX_stab" (at 352.552 327.914 0)
@@ -3565,7 +3565,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "S4") (unit 1)
+          (reference "S1") (unit 1)
         )
       )
     )
@@ -3595,7 +3595,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0130") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -3625,7 +3625,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0150") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -3655,7 +3655,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR03") (unit 1)
         )
       )
     )
@@ -3693,7 +3693,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U9") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -3723,7 +3723,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR07") (unit 1)
+          (reference "#PWR01") (unit 1)
         )
       )
     )
@@ -3753,7 +3753,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -3783,7 +3783,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0186") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -3792,7 +3792,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 246.38 311.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6613aecf-e270-47a6-b690-407657196f25)
-    (property "Reference" "K_21" (at 246.38 305.2318 0)
+    (property "Reference" "K_27" (at 246.38 305.2318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 246.38 313.69 0)
@@ -3809,7 +3809,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_21") (unit 1)
+          (reference "K_27") (unit 1)
         )
       )
     )
@@ -3839,7 +3839,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -3869,7 +3869,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -3907,7 +3907,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U40") (unit 1)
+          (reference "U37") (unit 1)
         )
       )
     )
@@ -3916,7 +3916,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 119.38 285.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 68afd5cb-59f2-4ae0-a6b0-6471c9b06005)
-    (property "Reference" "K_4" (at 119.38 279.8318 0)
+    (property "Reference" "K_10" (at 119.38 279.8318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 119.38 288.29 0)
@@ -3933,7 +3933,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_4") (unit 1)
+          (reference "K_10") (unit 1)
         )
       )
     )
@@ -3942,7 +3942,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 271.78 336.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a4de21e-07f7-4003-867d-155236adaa54)
-    (property "Reference" "K_34" (at 271.78 330.6318 0)
+    (property "Reference" "K_41" (at 271.78 330.6318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 271.78 339.09 0)
@@ -3959,7 +3959,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_34") (unit 1)
+          (reference "K_41") (unit 1)
         )
       )
     )
@@ -3997,7 +3997,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U63") (unit 1)
+          (reference "U53") (unit 1)
         )
       )
     )
@@ -4027,7 +4027,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0228") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -4065,7 +4065,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U4") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -4103,7 +4103,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U22") (unit 1)
+          (reference "U20") (unit 1)
         )
       )
     )
@@ -4133,7 +4133,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -4171,7 +4171,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U30") (unit 1)
+          (reference "U28") (unit 1)
         )
       )
     )
@@ -4204,7 +4204,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 195.58 311.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70eb4784-5c7a-4f52-991e-839920394025)
-    (property "Reference" "K_19" (at 195.58 305.2318 0)
+    (property "Reference" "K_25" (at 195.58 305.2318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 195.58 313.69 0)
@@ -4221,7 +4221,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_19") (unit 1)
+          (reference "K_25") (unit 1)
         )
       )
     )
@@ -4251,7 +4251,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0143") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -4319,7 +4319,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0182") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -4349,7 +4349,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -4379,7 +4379,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0216") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -4409,7 +4409,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0164") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -4439,7 +4439,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -4448,7 +4448,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 393.065 274.955 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7be349f4-f792-42f5-aa22-d9b63dfcd7bd)
-    (property "Reference" "H2" (at 395.605 274.32 0)
+    (property "Reference" "H3" (at 395.605 274.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 395.605 276.86 0)
@@ -4463,7 +4463,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "H2") (unit 1)
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -4472,7 +4472,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 195.58 336.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7d6b54eb-1ce2-4289-8328-c4a9433f13f7)
-    (property "Reference" "K_31" (at 195.58 330.6318 0)
+    (property "Reference" "K_38" (at 195.58 330.6318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 195.58 339.09 0)
@@ -4489,7 +4489,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_31") (unit 1)
+          (reference "K_38") (unit 1)
         )
       )
     )
@@ -4519,7 +4519,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0148") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -4549,7 +4549,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR09") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -4579,7 +4579,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0126") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -4617,7 +4617,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U7") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -4655,7 +4655,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U42") (unit 1)
+          (reference "U40") (unit 1)
         )
       )
     )
@@ -4685,7 +4685,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0218") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -4715,7 +4715,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR010") (unit 1)
         )
       )
     )
@@ -4753,7 +4753,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U31") (unit 1)
+          (reference "U29") (unit 1)
         )
       )
     )
@@ -4783,7 +4783,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR03") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -4816,7 +4816,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 393.065 282.575 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89413c2c-d434-4b1e-82d5-4c557035c34b)
-    (property "Reference" "H3" (at 395.605 281.94 0)
+    (property "Reference" "H5" (at 395.605 281.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 395.605 284.48 0)
@@ -4831,7 +4831,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "H3") (unit 1)
+          (reference "H5") (unit 1)
         )
       )
     )
@@ -4840,7 +4840,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 68.58 266.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8a721a7f-9731-4b1a-986e-18463015b819)
-    (property "Reference" "K_49" (at 68.58 260.7818 0)
+    (property "Reference" "K_2" (at 68.58 260.7818 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 68.58 269.24 0)
@@ -4857,7 +4857,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_49") (unit 1)
+          (reference "K_2") (unit 1)
         )
       )
     )
@@ -4887,7 +4887,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR011") (unit 1)
         )
       )
     )
@@ -4967,7 +4967,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U43") (unit 1)
+          (reference "U41") (unit 1)
         )
       )
     )
@@ -5005,7 +5005,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U29") (unit 1)
+          (reference "U27") (unit 1)
         )
       )
     )
@@ -5014,7 +5014,7 @@
   (symbol (lib_id "PCM_marbastlib-mx:MX_stab") (at 142.494 382.016 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 900fe923-c083-4e00-8498-843746084a7a)
-    (property "Reference" "S1" (at 149.098 381.254 0)
+    (property "Reference" "S2" (at 149.098 381.254 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MX_stab" (at 149.098 383.794 0)
@@ -5029,7 +5029,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "S1") (unit 1)
+          (reference "S2") (unit 1)
         )
       )
     )
@@ -5080,7 +5080,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 405.765 274.955 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94b9704c-a57a-4898-acf4-86cf5175f0f2)
-    (property "Reference" "H6" (at 408.305 274.32 0)
+    (property "Reference" "H4" (at 408.305 274.32 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 408.305 276.86 0)
@@ -5095,7 +5095,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "H6") (unit 1)
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -5125,7 +5125,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -5197,7 +5197,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0147") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -5269,7 +5269,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -5299,7 +5299,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR010") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -5379,7 +5379,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U26") (unit 1)
+          (reference "U24") (unit 1)
         )
       )
     )
@@ -5388,7 +5388,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 43.18 285.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fc6046b-c938-49cb-a437-4f7a70c50f5a)
-    (property "Reference" "K_1" (at 43.18 279.8318 0)
+    (property "Reference" "K_7" (at 43.18 279.8318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 43.18 288.29 0)
@@ -5405,7 +5405,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_1") (unit 1)
+          (reference "K_7") (unit 1)
         )
       )
     )
@@ -5443,7 +5443,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U45") (unit 1)
+          (reference "U47") (unit 1)
         )
       )
     )
@@ -5473,7 +5473,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR086") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -5511,7 +5511,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U44") (unit 1)
+          (reference "U42") (unit 1)
         )
       )
     )
@@ -5541,7 +5541,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -5550,7 +5550,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 68.58 336.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8794092-ade9-4261-aea7-f2ea85c56a02)
-    (property "Reference" "K_26" (at 68.58 330.6318 0)
+    (property "Reference" "K_33" (at 68.58 330.6318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 68.58 339.09 0)
@@ -5567,7 +5567,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_26") (unit 1)
+          (reference "K_33") (unit 1)
         )
       )
     )
@@ -5597,7 +5597,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0222") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -5606,7 +5606,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 405.765 282.575 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9dfeb20-1539-44f3-bc50-bcef12b37402)
-    (property "Reference" "H7" (at 408.305 281.94 0)
+    (property "Reference" "H6" (at 408.305 281.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 408.305 284.48 0)
@@ -5621,7 +5621,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "H7") (unit 1)
+          (reference "H6") (unit 1)
         )
       )
     )
@@ -5630,7 +5630,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 144.78 285.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ac669956-25de-4b4d-937f-86cfdd8faa40)
-    (property "Reference" "K_5" (at 144.78 279.8318 0)
+    (property "Reference" "K_11" (at 144.78 279.8318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 144.78 288.29 0)
@@ -5647,7 +5647,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_5") (unit 1)
+          (reference "K_11") (unit 1)
         )
       )
     )
@@ -5685,7 +5685,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U50") (unit 1)
+          (reference "U46") (unit 1)
         )
       )
     )
@@ -5694,7 +5694,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 170.18 336.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b153c1cc-b427-4e56-960a-763ba1715396)
-    (property "Reference" "K_30" (at 170.18 330.6318 0)
+    (property "Reference" "K_37" (at 170.18 330.6318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 170.18 339.09 0)
@@ -5711,7 +5711,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_30") (unit 1)
+          (reference "K_37") (unit 1)
         )
       )
     )
@@ -5749,7 +5749,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U17") (unit 1)
+          (reference "U15") (unit 1)
         )
       )
     )
@@ -5787,7 +5787,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U3") (unit 1)
+          (reference "U49") (unit 1)
         )
       )
     )
@@ -5817,7 +5817,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR0105") (unit 1)
         )
       )
     )
@@ -5847,7 +5847,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0194") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -5877,7 +5877,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR0103") (unit 1)
         )
       )
     )
@@ -5931,7 +5931,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0136") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -5961,7 +5961,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -5999,7 +5999,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U62") (unit 1)
+          (reference "U52") (unit 1)
         )
       )
     )
@@ -6029,7 +6029,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -6067,7 +6067,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U18") (unit 1)
+          (reference "U16") (unit 1)
         )
       )
     )
@@ -6076,7 +6076,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 68.58 285.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c24e672c-a2c2-4eeb-bca9-a85506c6a551)
-    (property "Reference" "K_2" (at 68.58 279.8318 0)
+    (property "Reference" "K_8" (at 68.58 279.8318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 68.58 288.29 0)
@@ -6093,7 +6093,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_2") (unit 1)
+          (reference "K_8") (unit 1)
         )
       )
     )
@@ -6102,7 +6102,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 322.58 285.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c252e4c4-bf25-459a-bcad-20db3ac7123e)
-    (property "Reference" "K_12" (at 322.58 279.8318 0)
+    (property "Reference" "K_18" (at 322.58 279.8318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 322.58 288.29 0)
@@ -6119,7 +6119,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_12") (unit 1)
+          (reference "K_18") (unit 1)
         )
       )
     )
@@ -6191,7 +6191,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -6229,7 +6229,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U61") (unit 1)
+          (reference "U51") (unit 1)
         )
       )
     )
@@ -6238,7 +6238,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 322.58 311.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c5435d36-bc0d-4c77-97e6-957a5a4d9f04)
-    (property "Reference" "K_24" (at 322.58 305.2318 0)
+    (property "Reference" "K_30" (at 322.58 305.2318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 322.58 313.69 0)
@@ -6255,7 +6255,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_24") (unit 1)
+          (reference "K_30") (unit 1)
         )
       )
     )
@@ -6264,7 +6264,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 43.18 336.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c6d4fc26-e322-4b57-b5b1-5d570b09dbcc)
-    (property "Reference" "K_25" (at 43.18 330.6318 0)
+    (property "Reference" "K_32" (at 43.18 330.6318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 43.18 339.09 0)
@@ -6281,7 +6281,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_25") (unit 1)
+          (reference "K_32") (unit 1)
         )
       )
     )
@@ -6319,7 +6319,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U28") (unit 1)
+          (reference "U25") (unit 1)
         )
       )
     )
@@ -6328,7 +6328,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 322.58 361.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c811bb8a-bc2b-4d70-8462-faf86ba6d56f)
-    (property "Reference" "K_46" (at 322.58 356.0318 0)
+    (property "Reference" "K_53" (at 322.58 356.0318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 322.58 364.49 0)
@@ -6345,7 +6345,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_46") (unit 1)
+          (reference "K_53") (unit 1)
         )
       )
     )
@@ -6375,7 +6375,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -6413,7 +6413,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U48") (unit 1)
+          (reference "U44") (unit 1)
         )
       )
     )
@@ -6443,7 +6443,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0172") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -6473,7 +6473,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0146") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -6545,7 +6545,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0138") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -6583,7 +6583,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U33") (unit 1)
+          (reference "U31") (unit 1)
         )
       )
     )
@@ -6621,7 +6621,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U23") (unit 1)
+          (reference "U21") (unit 1)
         )
       )
     )
@@ -6651,7 +6651,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -6660,7 +6660,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 220.98 336.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d40ea892-62b6-43ce-9f47-d3116f792038)
-    (property "Reference" "K_32" (at 220.98 330.6318 0)
+    (property "Reference" "K_39" (at 220.98 330.6318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 220.98 339.09 0)
@@ -6677,7 +6677,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_32") (unit 1)
+          (reference "K_39") (unit 1)
         )
       )
     )
@@ -6686,7 +6686,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 43.18 311.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d4dd2a92-5e70-407a-8d34-94ca5adc68fb)
-    (property "Reference" "K_13" (at 43.18 305.2318 0)
+    (property "Reference" "K_19" (at 43.18 305.2318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 43.18 313.69 0)
@@ -6703,7 +6703,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_13") (unit 1)
+          (reference "K_19") (unit 1)
         )
       )
     )
@@ -6712,7 +6712,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 119.38 266.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6042bec-ff39-49a6-860b-4d78bca1a200)
-    (property "Reference" "K_51" (at 119.38 260.7818 0)
+    (property "Reference" "K_4" (at 119.38 260.7818 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 119.38 269.24 0)
@@ -6729,7 +6729,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_51") (unit 1)
+          (reference "K_4") (unit 1)
         )
       )
     )
@@ -6767,7 +6767,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U20") (unit 1)
+          (reference "U18") (unit 1)
         )
       )
     )
@@ -6776,7 +6776,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 68.58 311.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6850be9-bdd5-4475-be46-1d68c27e1092)
-    (property "Reference" "K_14" (at 68.58 305.2318 0)
+    (property "Reference" "K_20" (at 68.58 305.2318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 68.58 313.69 0)
@@ -6793,7 +6793,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_14") (unit 1)
+          (reference "K_20") (unit 1)
         )
       )
     )
@@ -6823,7 +6823,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -6853,7 +6853,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0124") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -6891,7 +6891,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U41") (unit 1)
+          (reference "U39") (unit 1)
         )
       )
     )
@@ -6921,7 +6921,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -6930,7 +6930,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 170.18 361.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid db3d651b-3efb-43dd-be4c-045eb04f32de)
-    (property "Reference" "K_41" (at 170.18 356.0318 0)
+    (property "Reference" "K_48" (at 170.18 356.0318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 170.18 364.49 0)
@@ -6947,7 +6947,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_41") (unit 1)
+          (reference "K_48") (unit 1)
         )
       )
     )
@@ -6977,7 +6977,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
@@ -7015,7 +7015,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U13") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -7024,7 +7024,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 43.18 266.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dd9094cb-e500-4e26-9722-c280373e2a41)
-    (property "Reference" "K_48" (at 43.18 260.7818 0)
+    (property "Reference" "K_1" (at 43.18 260.7818 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 43.18 269.24 0)
@@ -7041,7 +7041,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_48") (unit 1)
+          (reference "K_1") (unit 1)
         )
       )
     )
@@ -7071,7 +7071,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0193") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -7109,7 +7109,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U15") (unit 1)
+          (reference "U14") (unit 1)
         )
       )
     )
@@ -7139,7 +7139,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -7177,7 +7177,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U16") (unit 1)
+          (reference "U13") (unit 1)
         )
       )
     )
@@ -7207,7 +7207,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR0104") (unit 1)
         )
       )
     )
@@ -7237,7 +7237,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0144") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -7275,7 +7275,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U24") (unit 1)
+          (reference "U22") (unit 1)
         )
       )
     )
@@ -7305,7 +7305,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -7335,7 +7335,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -7344,7 +7344,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 297.18 285.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8879060-c207-4bb2-ad1d-9a6621fbe837)
-    (property "Reference" "K_11" (at 297.18 279.8318 0)
+    (property "Reference" "K_17" (at 297.18 279.8318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 297.18 288.29 0)
@@ -7361,7 +7361,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_11") (unit 1)
+          (reference "K_17") (unit 1)
         )
       )
     )
@@ -7370,7 +7370,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 162.56 359.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8a55251-00e6-479a-adfb-7d8a4c4b6616)
-    (property "Reference" "K_40" (at 162.56 353.4918 0)
+    (property "Reference" "K_44" (at 162.56 353.4918 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 162.56 361.95 0)
@@ -7387,7 +7387,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_40") (unit 1)
+          (reference "K_44") (unit 1)
         )
       )
     )
@@ -7459,7 +7459,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0232") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -7489,7 +7489,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -7498,7 +7498,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 93.98 336.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea603dfa-4c02-4320-8e4a-22b3d6e46d6b)
-    (property "Reference" "K_27" (at 93.98 330.6318 0)
+    (property "Reference" "K_34" (at 93.98 330.6318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 93.98 339.09 0)
@@ -7515,7 +7515,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_27") (unit 1)
+          (reference "K_34") (unit 1)
         )
       )
     )
@@ -7524,7 +7524,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 93.98 266.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eaf20043-99d1-4225-a774-c82cd07ee86e)
-    (property "Reference" "K_50" (at 93.98 260.7818 0)
+    (property "Reference" "K_3" (at 93.98 260.7818 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 93.98 269.24 0)
@@ -7541,7 +7541,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_50") (unit 1)
+          (reference "K_3") (unit 1)
         )
       )
     )
@@ -7571,7 +7571,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0170") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -7601,7 +7601,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0214") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -7631,7 +7631,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -7640,7 +7640,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 246.38 336.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eceb516b-10a5-4112-a3e9-f4e9fe8857af)
-    (property "Reference" "K_33" (at 246.38 330.6318 0)
+    (property "Reference" "K_40" (at 246.38 330.6318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 246.38 339.09 0)
@@ -7657,7 +7657,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_33") (unit 1)
+          (reference "K_40") (unit 1)
         )
       )
     )
@@ -7695,7 +7695,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U14") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -7704,7 +7704,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 119.38 336.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f0317d35-8526-4546-9239-30ac3a541156)
-    (property "Reference" "K_28" (at 119.38 330.6318 0)
+    (property "Reference" "K_35" (at 119.38 330.6318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 119.38 339.09 0)
@@ -7721,7 +7721,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_28") (unit 1)
+          (reference "K_35") (unit 1)
         )
       )
     )
@@ -7793,7 +7793,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -7823,7 +7823,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0199") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -7832,7 +7832,7 @@
   (symbol (lib_id "Mechanical:MountingHole") (at 393.065 290.195 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1ea0ac9-66a3-4d55-bba6-e5f325927fa0)
-    (property "Reference" "H4" (at 395.605 289.56 0)
+    (property "Reference" "H7" (at 395.605 289.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "MountingHole" (at 395.605 292.1 0)
@@ -7847,7 +7847,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "H4") (unit 1)
+          (reference "H7") (unit 1)
         )
       )
     )
@@ -7856,7 +7856,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 195.58 285.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f1f2fcb8-df79-4a5b-8243-71564dd1984d)
-    (property "Reference" "K_7" (at 195.58 279.8318 0)
+    (property "Reference" "K_13" (at 195.58 279.8318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 195.58 288.29 0)
@@ -7873,7 +7873,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_7") (unit 1)
+          (reference "K_13") (unit 1)
         )
       )
     )
@@ -7911,7 +7911,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "U25") (unit 1)
+          (reference "U23") (unit 1)
         )
       )
     )
@@ -7941,7 +7941,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0176") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -7950,7 +7950,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 246.38 285.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f39ec7d4-d107-4e11-b1d2-9b446fcc570f)
-    (property "Reference" "K_9" (at 246.38 279.8318 0)
+    (property "Reference" "K_15" (at 246.38 279.8318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 246.38 288.29 0)
@@ -7967,7 +7967,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_9") (unit 1)
+          (reference "K_15") (unit 1)
         )
       )
     )
@@ -7997,7 +7997,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0197") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -8069,7 +8069,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -8099,7 +8099,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0168") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -8150,7 +8150,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 93.98 311.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fb210cc3-799f-47bb-8564-2944568b801e)
-    (property "Reference" "K_15" (at 93.98 305.2318 0)
+    (property "Reference" "K_21" (at 93.98 305.2318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 93.98 313.69 0)
@@ -8167,7 +8167,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_15") (unit 1)
+          (reference "K_21") (unit 1)
         )
       )
     )
@@ -8176,7 +8176,7 @@
   (symbol (lib_id "MX_Alps_Hybrid:MX-NoLED") (at 297.18 311.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fc472b1e-7326-4d49-b1dc-a685aff5cc82)
-    (property "Reference" "K_23" (at 297.18 305.2318 0)
+    (property "Reference" "K_29" (at 297.18 305.2318 0)
       (effects (font (size 1.524 1.524)))
     )
     (property "Value" "KEYSW" (at 297.18 313.69 0)
@@ -8193,7 +8193,7 @@
     (instances
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "K_23") (unit 1)
+          (reference "K_29") (unit 1)
         )
       )
     )
@@ -8223,7 +8223,7 @@
       )
       (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )

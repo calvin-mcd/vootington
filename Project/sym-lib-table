@@ -5,4 +5,5 @@
   (lib (name "MoonPad")(type "KiCad")(uri "${KIPRJMOD}/Moonpad.pretty/MoonPad.kicad_sym")(options "")(descr ""))
   (lib (name "MCU_RaspberryPi_RP2040")(type "KiCad")(uri "${KIPRJMOD}/Moonpad.pretty/MCU_RaspberryPi_RP2040.kicad_sym")(options "")(descr ""))
   (lib (name "cipulot_parts")(type "KiCad")(uri "C:/Users/viva-/Documents/GitHub/libraries/cipulot_kicad_parts-main/cipulot_parts.kicad_sym")(options "")(descr ""))
+  (lib (name "keebio")(type "Legacy")(uri "C:/Users/viva-/Documents/GitHub/libraries/keebio/keebio-components/keebio.lib")(options "")(descr ""))
 )

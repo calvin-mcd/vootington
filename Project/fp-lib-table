@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "Moonpad")(type "KiCad")(uri "${KIPRJMOD}/Moonpad.pretty")(options "")(descr ""))
   (lib (name "cipulot_parts")(type "KiCad")(uri "C:/Users/viva-/Documents/GitHub/libraries/cipulot_kicad_parts-main/cipulot_parts.pretty")(options "")(descr ""))
+  (lib (name "Keebio-Parts")(type "KiCad")(uri "C:/Users/viva-/Documents/GitHub/libraries/keebio/Keebio-Parts.pretty")(options "")(descr ""))
 )

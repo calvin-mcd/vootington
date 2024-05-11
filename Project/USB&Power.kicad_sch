@@ -1352,12 +1352,12 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C6") (unit 1)
         )
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "C6") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
       (project "le_capybara"
@@ -1394,12 +1394,12 @@
     (pin "3" (uuid c0752799-12a7-4163-9041-c5fa54acdb07))
     (pin "4" (uuid 77b94cd4-e851-4bd2-b7b4-00bfe1274445))
     (instances
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "U58") (unit 1)
         )
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "U58") (unit 1)
+          (reference "U56") (unit 1)
         )
       )
       (project "le_capybara"
@@ -1432,12 +1432,12 @@
     )
     (pin "1" (uuid 4b212dc6-f88e-47a5-8c95-57f17da5fcdb))
     (instances
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR089") (unit 1)
         )
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR0125") (unit 1)
         )
       )
       (project "le_capybara"
@@ -1478,12 +1478,12 @@
           (reference "U?") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "U52") (unit 1)
         )
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "U52") (unit 1)
+          (reference "U55") (unit 1)
         )
       )
       (project "le_capybara"
@@ -1497,7 +1497,7 @@
   (symbol (lib_id "power:GND") (at 155.575 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2559010f-1d3b-4c8e-bd16-099edea80b6e)
-    (property "Reference" "#PWR0155" (at 155.575 39.37 0)
+    (property "Reference" "#PWR0119" (at 155.575 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 155.702 37.4142 0)
@@ -1511,9 +1511,9 @@
     )
     (pin "1" (uuid 47cdcfc7-deb9-468e-957c-0baff4ea4831))
     (instances
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR0155") (unit 1)
+          (reference "#PWR0119") (unit 1)
         )
       )
       (project "Tiny Dimply Qazy"
@@ -1551,12 +1551,12 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR042") (unit 1)
         )
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR0117") (unit 1)
         )
       )
       (project "le_capybara"
@@ -1590,9 +1590,9 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "R3") (unit 1)
+          (reference "R2") (unit 1)
         )
       )
       (project "le_capybara"
@@ -1620,12 +1620,12 @@
     )
     (pin "1" (uuid 6f5008da-6753-4fc8-9f14-ee408f104fd3))
     (instances
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR041") (unit 1)
         )
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR0116") (unit 1)
         )
       )
       (project "le_capybara"
@@ -1654,7 +1654,7 @@
     (pin "1" (uuid 403eef2f-c0be-4fe6-b9b3-1303bb10ae68))
     (pin "2" (uuid 20d1b8b1-9d70-4581-b799-38f14f58a69c))
     (instances
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
           (reference "D_PWR1") (unit 1)
         )
@@ -1675,7 +1675,7 @@
   (symbol (lib_id "power:GND") (at 68.58 50.165 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70238404-ad55-4b0f-8583-95d433b4167e)
-    (property "Reference" "#PWR091" (at 68.58 56.515 0)
+    (property "Reference" "#PWR0121" (at 68.58 56.515 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 68.58 54.61 0)
@@ -1689,9 +1689,9 @@
     )
     (pin "1" (uuid a7cabaf6-231a-42e6-a740-17173816f305))
     (instances
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR0121") (unit 1)
         )
       )
       (project "le_capybara"
@@ -1705,7 +1705,7 @@
   (symbol (lib_id "power:GND") (at 32.893 81.915 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 708d08f9-d9b6-490b-86da-c681f31e0e93)
-    (property "Reference" "#PWR0104" (at 32.893 88.265 0)
+    (property "Reference" "#PWR0124" (at 32.893 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 32.893 86.36 0)
@@ -1719,9 +1719,9 @@
     )
     (pin "1" (uuid 18ba0a15-9137-44d6-8d4b-3ccbbc88f65a))
     (instances
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR0124") (unit 1)
         )
       )
       (project "le_capybara"
@@ -1738,7 +1738,7 @@
     (property "Reference" "F2" (at 101.6 50.8 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "ASMD1206-150" (at 101.6 53.34 90)
+    (property "Value" "500mA" (at 101.6 53.34 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Fuse:Fuse_1206_3216Metric" (at 106.68 54.61 0)
@@ -1747,18 +1747,18 @@
     (property "Datasheet" "~" (at 101.6 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC" "C135341" (at 101.6 55.88 90)
+    (property "LCSC" "C70076" (at 101.6 55.88 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 76f5c648-9688-4975-ab73-8cb972994844))
     (pin "2" (uuid d1e925a1-79cd-4992-a7f5-0bf087689dba))
     (instances
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "F2") (unit 1)
         )
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "F2") (unit 1)
+          (reference "F1") (unit 1)
         )
       )
       (project "le_capybara"
@@ -1800,9 +1800,9 @@
           (reference "J1") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "J1") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
       (project "Tiny Dimply Qazy"
@@ -1845,9 +1845,9 @@
           (reference "#PWR011") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR0135") (unit 1)
+          (reference "#PWR0128") (unit 1)
         )
       )
       (project "Tiny Dimply Qazy"
@@ -1895,9 +1895,9 @@
           (reference "#PWR010") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR0133") (unit 1)
+          (reference "#PWR0127") (unit 1)
         )
       )
     )
@@ -1906,7 +1906,7 @@
   (symbol (lib_id "power:+5V") (at 142.875 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 948edb81-5fd5-4ba8-9944-4407c07bbed8)
-    (property "Reference" "#PWR0154" (at 142.875 36.83 0)
+    (property "Reference" "#PWR0118" (at 142.875 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 142.875 27.94 0)
@@ -1920,9 +1920,9 @@
     )
     (pin "1" (uuid 9e1c90ae-99aa-4c0f-9136-97f8e9848555))
     (instances
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR0154") (unit 1)
+          (reference "#PWR0118") (unit 1)
         )
       )
       (project "RP2040-Guide"
@@ -1965,9 +1965,9 @@
           (reference "#PWR013") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR0130") (unit 1)
         )
       )
       (project "Tiny Dimply Qazy"
@@ -2015,9 +2015,9 @@
           (reference "#PWR09") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR0131") (unit 1)
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -2045,12 +2045,12 @@
           (reference "#PWR?") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR043") (unit 1)
         )
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR0120") (unit 1)
         )
       )
       (project "le_capybara"
@@ -2078,12 +2078,12 @@
     )
     (pin "1" (uuid 60dcea92-aa08-4895-bdc9-4bc4f17f8487))
     (instances
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR087") (unit 1)
         )
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR087") (unit 1)
+          (reference "#PWR0123") (unit 1)
         )
       )
       (project "le_capybara"
@@ -2121,9 +2121,9 @@
           (reference "#PWR012") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR0137") (unit 1)
+          (reference "#PWR0129") (unit 1)
         )
       )
       (project "Tiny Dimply Qazy"
@@ -2165,12 +2165,12 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C4") (unit 1)
         )
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "C4") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
       (project "le_capybara"
@@ -2212,9 +2212,9 @@
           (reference "J2") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "J3") (unit 1)
+          (reference "J14") (unit 1)
         )
       )
       (project "Tiny Dimply Qazy"
@@ -2247,12 +2247,12 @@
     )
     (pin "1" (uuid a1c90b1d-8099-4592-90d5-5d7d11fe8033))
     (instances
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "#PWR079") (unit 1)
         )
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR0122") (unit 1)
         )
       )
       (project "le_capybara"
@@ -2290,9 +2290,9 @@
           (reference "#PWR014") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "#PWR0152") (unit 1)
+          (reference "#PWR0131") (unit 1)
         )
       )
       (project "Tiny Dimply Qazy"
@@ -2331,9 +2331,9 @@
           (reference "R?") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "R4") (unit 1)
+          (reference "R3") (unit 1)
         )
       )
       (project "le_capybara"
@@ -2370,12 +2370,12 @@
           (reference "C?") (unit 1)
         )
       )
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/00617548-7095-421c-9d05-30ad704b65f1"
           (reference "C5") (unit 1)
         )
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "C5") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
       (project "le_capybara"
@@ -2389,7 +2389,7 @@
   (symbol (lib_id "Connector:USB_C_Receptacle_USB2.0") (at 36.83 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fbb39089-e2f1-4d41-9845-76dc8a438dec)
-    (property "Reference" "J2" (at 36.83 34.29 0)
+    (property "Reference" "J12" (at 36.83 34.29 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "USB_C sink board 1.3mm" (at 36.83 36.83 0)
@@ -2428,9 +2428,9 @@
     (pin "B9" (uuid 807ca67d-ee14-46c7-9a1c-7d25666dba72))
     (pin "S1" (uuid 2e3d53bb-0a0d-49b8-bda0-f055452f431f))
     (instances
-      (project "vootington minivan"
+      (project "vootington V4N"
         (path "/7fa06d8b-464b-4050-a0fd-d319cc509390/482325c2-4a62-42d2-bd7f-adb26184afc4"
-          (reference "J2") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
       (project "le_capybara"
