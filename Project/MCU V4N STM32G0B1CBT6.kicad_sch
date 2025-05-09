@@ -2974,7 +2974,6 @@
 	)
 	(label "VREF"
 		(at 101.6 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2985,7 +2984,6 @@
 	)
 	(label "VREF"
 		(at 22.86 33.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
