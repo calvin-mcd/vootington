@@ -1,15 +1,8 @@
 # Vootington
 
-The Vootington is a hall-effct minivan-style keyboard pcb. It aims to support rapid trigger and on the go adjustment of the actuation point. It requires magnetic switches such as the lekker or similar switches.
-
-The pcb layout itself combines the [minisub](https://trashman.wiki/community/pcbs/minisub) bottom row options with the [rescuevan](https://github.com/matthewdias/rescuetruck) modifiers to allow for an ISO enter option. (Hence the shifts keys are nonstandard sized for minivans!)
-
-Th pcb also sports the full traymount mounting point, but mileage might vary and still requires testing.
-
-Also, it sports full per key rgb!!
+The Vootington is an open source hall-effect pcb for the V4N keyboard.
 
 The keyboard takes design cues from the Wooting keyboards, [the moonpad](https://github.com/RephlexZero/MoonPad) and [the void switch keyboards](https://github.com/riskable/void_switch_65_pct) from riskable.
-
 
 ## Layout
 
@@ -19,17 +12,16 @@ The keyboard takes design cues from the Wooting keyboards, [the moonpad](https:/
 
 ## Firmware
 
-The basic firmware is set up for vial and allows to switch rapid trigger on/off and adjustment of the actuation (!!!!) point. Make sure to assign these respective keys from the ____ tab.
+The basic firmware included is experimental and designed by KarlK90.
+Pete is currently developing more advanced HE firmware for zmk.
 
 ## Todo
 
-- [ ] order & test pcb
-- [ ] create firmware
-- [ ] test in traymount case
+- [ ] create advanced firmware with full HE functionality
 
 ## Disclaimer
 
-Please note that this project is a work in progress with no guarantees of a working outcome. No-one involved in this project is responsible for any usage issues that may arise. However, feel free to edit, modify and otherwise utilise these files.
+This PCB has been fully tested and is confirmed to work. However, no-one involved in this project is responsible for any usage issues that may arise. Order at your own risk. Feel free to edit, modify and otherwise utilise these files.
 
 ## License
 
@@ -37,7 +29,9 @@ This project is released under the GPL v3 License. Please refer to the LICENCE f
 
 ## Credits
 
-big thanks to sporkus for making the firmware and for supporting the design of the keyboard.
+big thanks to KarlK90 for making the initial firmware and for supporting the hardware design of the keyboard.
+
+another huge thanks to pete for writing zmk firmware for this!
 
 As always big thanks also to the many people who helped to inspire this board!
 
