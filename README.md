@@ -14,8 +14,10 @@ The keyboard takes design cues from the Wooting keyboards, [the moonpad](https:/
 
 ## Firmware
 
-The basic firmware included is experimental and designed by KarlK90.
-Pete is currently developing more advanced HE firmware for zmk.
+The basic firmware included in the folder is experimental and designed by KarlK90. Their work can be found here:
+https://github.com/KarlK90/qmk_firmware/tree/feature/vootington/keyboards/calvin0563/vootington
+
+Pete is currently developing more advanced HE firmware for zmk. Keep your eyes on that.
 
 ## Todo
 
