@@ -2,6 +2,8 @@
 
 The Vootington is an open source hall-effect pcb for the V4N keyboard.
 
+The aim of this project is to offer a functional hardware Hall-effect reference project for the community. The project is not meant to offer the full aspects of firmware. I leave that to smart people to figure out.
+
 The keyboard takes design cues from the Wooting keyboards, [the moonpad](https://github.com/RephlexZero/MoonPad) and [the void switch keyboards](https://github.com/riskable/void_switch_65_pct) from riskable.
 
 ## Layout
