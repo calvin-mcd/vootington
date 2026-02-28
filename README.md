@@ -20,7 +20,8 @@ https://github.com/KarlK90/qmk_firmware/tree/feature/vootington/keyboards/calvin
 Pete is currently developing more advanced HE firmware for zmk. Keep your eyes on that:
 https://github.com/petejohanson/vootington-zmk-config
 
-**beware!!!**: 
+**beware!!!**
+
 the hardware configuration for rgb on the vootington is currently not supported by zmk, which means no rgb with the zmk firmware.
 
 
