@@ -17,7 +17,10 @@ The keyboard takes design cues from the Wooting keyboards, [the moonpad](https:/
 The basic firmware included in the folder is experimental and designed by KarlK90. Their work can be found here:
 https://github.com/KarlK90/qmk_firmware/tree/feature/vootington/keyboards/calvin0563/vootington
 
-Pete is currently developing more advanced HE firmware for zmk. Keep your eyes on that.
+Pete is currently developing more advanced HE firmware for zmk. Keep your eyes on that:
+https://github.com/petejohanson/vootington-zmk-config
+But **beware**: the hardware configuration for rgb on the vootington is not currently supported by zmk, which means no rgb with the zmk firmware.
+
 
 ## Todo
 
