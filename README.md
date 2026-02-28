@@ -22,7 +22,7 @@ https://github.com/petejohanson/vootington-zmk-config
 
 **beware!!!**
 
-the hardware configuration for rgb on the vootington is currently not supported by zmk, which means no rgb with the zmk firmware.
+The hardware configuration for rgb on the vootington is currently not supported by zmk, which means no rgb with the zmk firmware.
 
 
 ## Todo
